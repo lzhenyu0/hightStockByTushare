@@ -1,4 +1,26 @@
-使用方式
+## 环境配置
+
+本程序需要在 Python3 环境下运行
+安装插件:
+
+```shell
+pip3 install tushare -i https://pypi.tuna.tsinghua.edu.cn/simple/
+pip3 install flask -i https://pypi.tuna.tsinghua.edu.cn/simple/
+pip3 install flask-restful
+
+# 假如提示缺少 bs4, 需要手动安装
+pip3 install bs4
+
+```
+
+## 使用方式
+
+* 启动
+
+```shell
+python3 serverjsonp.py
+
+```
 
 ``` shell
 GET 127.0.0.1:5000/max?s=002396&d=2019-03-02

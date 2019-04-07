@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from flask import Flask
 from flask import request
 from flask_restful import Resource, Api
