@@ -45,7 +45,7 @@ RESPONSE
             console.log(op)
 
             $.ajax({
-                url: "http://47.95.197.116:5000/max?s=" + code + "&d=" + date,
+                url: "http://xxx.xxx.xx.xxx:5000/max?s=" + code + "&d=" + date,
                 dataType: "jsonp",
                 jsonp: "callback",
                 success: function (data) {
